@@ -159,7 +159,7 @@ if __name__=='__main__':
 '''
 
 """
-
+"""
 #案例七-1：使用Allure生成报告
 import pytest
 import allure
@@ -177,6 +177,7 @@ if __name__ == "__main__":
     pytest.main(['-s', '-v', '--alluredir', './reports'])
 
 """
+"""
 #案例七：失败重试
 #失败重试
 #pip install pytest-rerunfailures
@@ -189,6 +190,7 @@ def test():
 
 if __name__=='__main__':
     pytest.main(['sv'])
+
 """
 """
 #案例八：pip install pytest-ordering  控制用例的执行顺序（重点）
